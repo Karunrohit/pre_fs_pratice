@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\pre_fs_pratice.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\pre_fs_pratice.dir/objects.a @CMakeFiles\pre_fs_pratice.dir\objects1.rsp
+C:\MinGW\bin\g++.exe --coverage -g -Wl,--whole-archive CMakeFiles\pre_fs_pratice.dir/objects.a -Wl,--no-whole-archive -o pre_fs_pratice.exe -Wl,--out-implib,libpre_fs_pratice.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pre_fs_pratice.dir\linklibs.rsp
